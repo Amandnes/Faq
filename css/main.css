@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+}
+@font-face {
+    font-family: 'WorkSans-Italic';
+    src: url("../assets/fonts/WorkSans-Italic-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: 'WorkSans';
+    src: url("../assets/fonts/WorkSans-VariableFont_wght.ttf");
+}
+.imagem-fundo {
+    background-image: url("../assets/images/background-pattern-desktop.svg");
+    height: 315px;
+}
+
+.bloco-faq {
+    background-color: rgb(255, 255, 255);
+    width: 35%;
+    padding: 20px 40px;
+    margin: auto;
+    border-radius: 15px;
+    position: relative;
+    bottom: 170px;
+    box-shadow: 0px 0px 45px 30px rgba(0, 0, 0, 0.08);
+}
+.titulo-faq {
+    display: flex;
+    align-items: center;
+    font-family: WorkSans;
+    gap: 20px;
+}
+.imagem-estrela{
+    height: 35px;
+}
+.perguntas-faq {
+    font-family: WorkSans;
+    font-weight: 600;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0 10px 0;
+}
+.perguntas-faq:hover {
+    color: #aa30d7;
+}
+.respostas-faq {
+    color: #988b9c;
+    font-size: 13px;
+    font-family: WorkSans;
+    display: none;
+}
+.img-plus {
+    height: 25px;
+}
+.borda {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+}
+footer {
+    font-family: WorkSans-Italic;
+}
+@media (max-width: 500px) {
+    .bloco-faq {
+        width: 70%;
+        border-radius: 10px;
+    }
+}
